@@ -1,0 +1,56 @@
+html{
+    font-size: 12pt;
+    margin:0;
+    padding:0;
+}
+#container{
+    display:flex;
+    position: absolute;
+    top:10%;
+    left:15%;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    height:60%;
+    width:60%;
+    border: 5rem solid rgba(255,60,60,1);
+    border-radius: 50px;
+}
+.square{
+    flex:column;
+    height: 12.5%;
+    width: 12.5%;
+}
+
+#reset{
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    position: fixed;
+    left: 17%;
+    top: 80%;
+}
+
+#colorpicker{
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+    position: fixed;
+    left: 80%;
+    top: 80%;
+    border-radius: 60px;
+    padding:15px;
+}
+h1 {
+    margin:0;
+    color: grey;
+    text-align: center;
+    font-size: 3rem;
+}
+
+p {
+    text-align: center;
+    margin:0;
+    color: darkgrey;
+    font-size: 1.2rem;
+    
+}
